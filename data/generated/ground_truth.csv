@@ -1,0 +1,8 @@
+issue_id,issue_type,entity,record_id,expected_decision,details
+ISS-0004,premium_formula_mismatch,quote,QTE-2026-000003,recalculate,Premium is 40 percent above the formula.
+ISS-0006,missing_risk_data,insured_asset,AST-2026-000005,refer,Risk score is missing; every quote for this asset requires referral.
+ISS-0001,policy_issued_without_acceptance_or_payment,policy,POL-2026-000001,void,Acceptance and payment are both false.
+ISS-0005,overlapping_policy_period,policy,POL-2026-000003,refer,Same applicant has an overlapping active policy term.
+ISS-0003,endorsement_exceeds_product_limit,endorsement,END-POL-2026-000003-001,refer,Proposed total coverage exceeds the product maximum.
+ISS-0002,renewal_for_cancelled_policy,renewal,REN-POL-2026-000004-2027,reject,The persisted policy is cancelled.
+ISS-0007,declined_renewal,renewal,REN-POL-2026-000005-2027,record_decline,Customer declined the renewal offer.

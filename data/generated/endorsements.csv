@@ -1,0 +1,3 @@
+endorsement_id,policy_id,change_type,coverage_delta,proposed_coverage,prior_asset_id,replacement_asset_id,status,effective_date
+END-POL-2026-000002-001,POL-2026-000002,mid_term_asset_change,0,33381,AST-2026-000001,AST-CHANGE-2026-000001,pending_review,2026-06-01
+END-POL-2026-000003-001,POL-2026-000003,coverage_increase,50000,83381,AST-2026-000001,AST-2026-000001,referred,2026-08-01

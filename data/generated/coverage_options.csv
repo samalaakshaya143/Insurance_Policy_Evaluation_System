@@ -1,0 +1,4 @@
+coverage_id,product_code,name,limit_amount,effective_from,effective_to
+COV-AUTO-BASE,AUTO,Standard,50000,2026-01-01,2027-12-31
+COV-HOME-BASE,HOME,Standard,750000,2026-01-01,2027-12-31
+COV-SMB-BASE,SMB,Standard,1000000,2026-01-01,2027-12-31

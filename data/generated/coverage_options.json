@@ -1,0 +1,26 @@
+[
+  {
+    "coverage_id": "COV-AUTO-BASE",
+    "product_code": "AUTO",
+    "name": "Standard",
+    "limit_amount": 50000,
+    "effective_from": "2026-01-01",
+    "effective_to": "2027-12-31"
+  },
+  {
+    "coverage_id": "COV-HOME-BASE",
+    "product_code": "HOME",
+    "name": "Standard",
+    "limit_amount": 750000,
+    "effective_from": "2026-01-01",
+    "effective_to": "2027-12-31"
+  },
+  {
+    "coverage_id": "COV-SMB-BASE",
+    "product_code": "SMB",
+    "name": "Standard",
+    "limit_amount": 1000000,
+    "effective_from": "2026-01-01",
+    "effective_to": "2027-12-31"
+  }
+]

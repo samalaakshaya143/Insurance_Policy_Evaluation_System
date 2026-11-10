@@ -1,0 +1,43 @@
+{
+  "seed": 20261022,
+  "counts": {
+    "products": 3,
+    "applicants": 3000,
+    "insured_assets": 3001,
+    "coverage_options": 3,
+    "risk_factors": 3001,
+    "quotes": 4000,
+    "underwriting_decisions": 4000,
+    "policies": 2000,
+    "endorsements": 2,
+    "renewals": 1200,
+    "policy_events": 3201,
+    "ground_truth": 7
+  },
+  "metrics": {
+    "quote_decision_counts": {
+      "approve": 3363,
+      "decline": 160,
+      "refer": 477
+    },
+    "referral_rate": 0.1192,
+    "renewal_status_counts": {
+      "declined": 1,
+      "invalid_offer_for_inactive_policy": 1,
+      "offered": 1198
+    },
+    "labeled_exception_counts": {
+      "declined_renewal": 1,
+      "endorsement_exceeds_product_limit": 1,
+      "missing_risk_data": 1,
+      "overlapping_policy_period": 1,
+      "policy_issued_without_acceptance_or_payment": 1,
+      "premium_formula_mismatch": 1,
+      "renewal_for_cancelled_policy": 1
+    }
+  },
+  "validation": {
+    "status": "PASS",
+    "errors": []
+  }
+}

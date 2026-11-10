@@ -1,0 +1,4 @@
+product_code,name,max_coverage,base_rate,effective_from,effective_to
+AUTO,Personal Auto,50000,0.018,2026-01-01,2027-12-31
+HOME,Homeowners,750000,0.004,2026-01-01,2027-12-31
+SMB,Small Business,1000000,0.006,2026-01-01,2027-12-31

@@ -1,0 +1,26 @@
+[
+  {
+    "product_code": "AUTO",
+    "name": "Personal Auto",
+    "max_coverage": 50000,
+    "base_rate": 0.018,
+    "effective_from": "2026-01-01",
+    "effective_to": "2027-12-31"
+  },
+  {
+    "product_code": "HOME",
+    "name": "Homeowners",
+    "max_coverage": 750000,
+    "base_rate": 0.004,
+    "effective_from": "2026-01-01",
+    "effective_to": "2027-12-31"
+  },
+  {
+    "product_code": "SMB",
+    "name": "Small Business",
+    "max_coverage": 1000000,
+    "base_rate": 0.006,
+    "effective_from": "2026-01-01",
+    "effective_to": "2027-12-31"
+  }
+]

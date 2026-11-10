@@ -1,0 +1,58 @@
+[
+  {
+    "issue_id": "ISS-0004",
+    "issue_type": "premium_formula_mismatch",
+    "entity": "quote",
+    "record_id": "QTE-2026-000003",
+    "expected_decision": "recalculate",
+    "details": "Premium is 40 percent above the formula."
+  },
+  {
+    "issue_id": "ISS-0006",
+    "issue_type": "missing_risk_data",
+    "entity": "insured_asset",
+    "record_id": "AST-2026-000005",
+    "expected_decision": "refer",
+    "details": "Risk score is missing; every quote for this asset requires referral."
+  },
+  {
+    "issue_id": "ISS-0001",
+    "issue_type": "policy_issued_without_acceptance_or_payment",
+    "entity": "policy",
+    "record_id": "POL-2026-000001",
+    "expected_decision": "void",
+    "details": "Acceptance and payment are both false."
+  },
+  {
+    "issue_id": "ISS-0005",
+    "issue_type": "overlapping_policy_period",
+    "entity": "policy",
+    "record_id": "POL-2026-000003",
+    "expected_decision": "refer",
+    "details": "Same applicant has an overlapping active policy term."
+  },
+  {
+    "issue_id": "ISS-0003",
+    "issue_type": "endorsement_exceeds_product_limit",
+    "entity": "endorsement",
+    "record_id": "END-POL-2026-000003-001",
+    "expected_decision": "refer",
+    "details": "Proposed total coverage exceeds the product maximum."
+  },
+  {
+    "issue_id": "ISS-0002",
+    "issue_type": "renewal_for_cancelled_policy",
+    "entity": "renewal",
+    "record_id": "REN-POL-2026-000004-2027",
+    "expected_decision": "reject",
+    "details": "The persisted policy is cancelled."
+  },
+  {
+    "issue_id": "ISS-0007",
+    "issue_type": "declined_renewal",
+    "entity": "renewal",
+    "record_id": "REN-POL-2026-000005-2027",
+    "expected_decision": "record_decline",
+    "details": "Customer declined the renewal offer."
+  }
+]

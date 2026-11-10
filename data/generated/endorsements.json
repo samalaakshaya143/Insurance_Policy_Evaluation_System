@@ -1,0 +1,24 @@
+[
+  {
+    "endorsement_id": "END-POL-2026-000002-001",
+    "policy_id": "POL-2026-000002",
+    "change_type": "mid_term_asset_change",
+    "coverage_delta": 0,
+    "proposed_coverage": 33381,
+    "prior_asset_id": "AST-2026-000001",
+    "replacement_asset_id": "AST-CHANGE-2026-000001",
+    "status": "pending_review",
+    "effective_date": "2026-06-01"
+  },
+  {
+    "endorsement_id": "END-POL-2026-000003-001",
+    "policy_id": "POL-2026-000003",
+    "change_type": "coverage_increase",
+    "coverage_delta": 50000,
+    "proposed_coverage": 83381,
+    "prior_asset_id": "AST-2026-000001",
+    "replacement_asset_id": "AST-2026-000001",
+    "status": "referred",
+    "effective_date": "2026-08-01"
+  }
+]
