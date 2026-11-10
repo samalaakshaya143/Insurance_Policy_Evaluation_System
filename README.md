@@ -44,7 +44,7 @@ The generator writes CSV and JSON files for each entity to the selected output d
 
 A copy of the summary is also written to `reports/evaluation_summary.json`.
 
-The SQL script is generated for loading the records into SQLite or another compatible SQL environment. The generator creates the SQL script; it does not create a `.db` database file.
+`database/insurance_policy_evaluation.db` is a SQLite snapshot of the generated records, and `database/schema.sql` contains the documented database schema. To rebuild the database after generating data, execute `data/generated/seed.sql` using SQLite. The generator creates the SQL seed script; it does not automatically create or refresh the `.db` snapshot.
 
 ## Products and example rules
 
